@@ -47,5 +47,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-            push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-ci-demo:latest
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-ci-demo:latest
